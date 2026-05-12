@@ -1,0 +1,2 @@
+### 📊 System Status
+![Monitoring Activity](https://raw.githubusercontent.com/wahidalawy/wahidalawy/main/status.svg)
