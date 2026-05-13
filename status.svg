@@ -1,0 +1,35 @@
+<svg width="350" height="100" viewBox="0 0 350 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif; fill: #9fef00; }
+    .stat { font: 800 32px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ffffff; }
+    .label { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #888888; }
+    
+    /* انیمیشن ضربان خط مانیتورینگ */
+    .pulse {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: dash 5s linear infinite;
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: 0; }
+    }
+    
+    /* انیمیشن محو شدن نقطه مانیتور */
+    @keyframes blink {
+      0% { opacity: 0.2; }
+      50% { opacity: 1; }
+      100% { opacity: 0.2; }
+    }
+    .dot { animation: blink 2s infinite; }
+  </style>
+
+  <rect width="350" height="100" rx="15" fill="#0d1117" />
+  <rect x="0.5" y="0.5" width="349" height="99" rx="14.5" stroke="#30363d" />
+
+  <text x="25" y="35" class="header">System Monitoring</text>
+  <text x="25" y="75" class="stat">11</text>
+  <text x="120" y="75" class="label">Total Commits</text>
+
+  <path d="M220 50 L240 50 L250 30 L265 70 L280 50 L320 50" stroke="#9fef00" stroke-width="2" fill="none" class="pulse" />
+  <circle cx="215" cy="50" r="3" fill="#9fef00" class="dot" />
+</svg>
