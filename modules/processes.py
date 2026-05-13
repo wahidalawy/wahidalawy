@@ -50,10 +50,10 @@ def generate():
         <tspan x="125" fill="{cmd_color}">note_watcher_pipeline</tspan>
     </text>
 
-    <path d="M 5 185 L 275 185" stroke="{header_color}" stroke-width="1" stroke-dasharray="4 4"/>
+    <path d="M 5 185 L 265 185" stroke="{header_color}" stroke-width="1" stroke-dasharray="4 4"/>
     
     <text x="5" y="210" class="body-text" fill="#EBCB8B" font-size="12px">
-        [SYS] Control Plane active on PostgreSQL.
+        [SYS] DB Control Plane: PostgreSQL
     </text>
     """
     return svg_content

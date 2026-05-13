@@ -20,7 +20,7 @@ def generate():
     <text x="10" y="195" class="body-text" fill="{line_color}">├── <tspan fill="#A3BE8C">[Backend]  </tspan> <tspan fill="{text_color}">Python / PHP</tspan></text>
     <text x="10" y="220" class="body-text" fill="{line_color}">└── <tspan fill="#B48EAD">[Frontend] </tspan> <tspan fill="{text_color}">React / Next.js</tspan></text>
     
-    <rect x="20" y="360" width="260" height="30" rx="4" fill="rgba(163, 190, 140, 0.1)" stroke="#A3BE8C" stroke-width="1"/>
-    <text x="150" y="380" class="body-text" fill="#A3BE8C" font-size="12px" text-anchor="middle">● All Infrastructure Operational</text>
+    <rect x="0" y="360" width="260" height="30" rx="4" fill="rgba(163, 190, 140, 0.1)" stroke="#A3BE8C" stroke-width="1"/>
+    <text x="130" y="380" class="body-text" fill="#A3BE8C" font-size="12px" text-anchor="middle">● All Infrastructure Operational</text>
     """
     return svg_content
