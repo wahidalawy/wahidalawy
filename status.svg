@@ -186,7 +186,7 @@
     
     <text y="25" class="body-text">
         <tspan x="5" fill="#81A1C1">TOTAL_COMMITS_ </tspan>
-        <tspan fill="#A3BE8C" font-weight="bold">16</tspan>
+        <tspan fill="#A3BE8C" font-weight="bold">17</tspan>
     </text>
 
     <text y="45" class="body-text">
@@ -217,37 +217,37 @@
       
     <text x="5" y="0" class="body-text" font-size="12px" font-weight="bold" fill="#4C566A">
         <tspan x="5">PROT</tspan>
-        <tspan x="45">PORT</tspan>
-        <tspan x="90">STATE</tspan>
-        <tspan x="185">SERVICE</tspan>
+        <tspan x="35">PORT</tspan>
+        <tspan x="70">STATE</tspan>
+        <tspan x="155">SERVICE</tspan>
     </text>
     
     <text y="20" class="body-text" font-size="12px">
         <tspan x="5" fill="#81A1C1">tcp</tspan>
-        <tspan x="45" fill="#B48EAD">443</tspan>
-        <tspan x="90" fill="#A3BE8C">ESTABLISHED</tspan>
-        <tspan x="185" fill="#ECEFF4">t.me/WahidAlawy</tspan> 
+        <tspan x="35" fill="#B48EAD">443</tspan>
+        <tspan x="70" fill="#A3BE8C">ESTABLISHED</tspan>
+        <tspan x="155" fill="#ECEFF4">t.me/WahidAlawy</tspan> 
     </text>
     
     <text y="40" class="body-text" font-size="12px">
         <tspan x="5" fill="#81A1C1">tcp</tspan>
-        <tspan x="45" fill="#B48EAD">25</tspan>
-        <tspan x="90" fill="#A3BE8C">LISTENING</tspan>
-        <tspan x="185" fill="#ECEFF4">mail@domain</tspan>
+        <tspan x="35" fill="#B48EAD">25</tspan>
+        <tspan x="70" fill="#A3BE8C">LISTENING</tspan>
+        <tspan x="155" fill="#ECEFF4">mail@domain</tspan>
     </text>
     
     <text y="60" class="body-text" font-size="12px">
         <tspan x="5" fill="#81A1C1">udp</tspan>
-        <tspan x="45" fill="#B48EAD">5060</tspan>
-        <tspan x="90" fill="#A3BE8C">CALIBRATED</tspan>
-        <tspan x="185" fill="#ECEFF4">Social Dynamics</tspan>
+        <tspan x="35" fill="#B48EAD">5060</tspan>
+        <tspan x="70" fill="#A3BE8C">CALIBRATED</tspan>
+        <tspan x="155" fill="#ECEFF4">Social Dynamics</tspan>
     </text>
     
     <text y="80" class="body-text" font-size="12px">
         <tspan x="5" fill="#81A1C1">tcp</tspan>
-        <tspan x="45" fill="#B48EAD">22</tspan>
-        <tspan x="90" fill="#A3BE8C">ESTABLISHED</tspan>
-        <tspan x="185" fill="#ECEFF4">Rapport</tspan>
+        <tspan x="35" fill="#B48EAD">22</tspan>
+        <tspan x="70" fill="#A3BE8C">ESTABLISHED</tspan>
+        <tspan x="155" fill="#ECEFF4">Rapport</tspan>
     </text>
 
     <path d="M 5 105 L 265 105" stroke="#4C566A" stroke-width="1" stroke-dasharray="2 2"/>
