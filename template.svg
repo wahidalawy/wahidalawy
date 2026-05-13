@@ -60,7 +60,8 @@
     <text x="480" y="20" class="title-text" text-anchor="middle">root@mahdavi:~</text>
     
     <g id="inject-identity" transform="translate(25, 65)">
-      </g>
+      {{WINDOW_1_CONTENT}}
+    </g>
   </g>
 
   <g id="window2-infra" transform="translate(20, 160)">
@@ -70,7 +71,8 @@
     <text x="150" y="20" class="title-text" text-anchor="middle">sys_infra.sh</text>
     
     <g id="inject-infra" transform="translate(20, 60)">
-      </g>
+      {{WINDOW_2_CONTENT}}
+    </g>
   </g>
 
   <g id="window3-processes" transform="translate(340, 160)">
@@ -80,7 +82,8 @@
     <text x="160" y="20" class="title-text" text-anchor="middle">htop -u root</text>
     
     <g id="inject-processes" transform="translate(20, 60)">
-      </g>
+      {{WINDOW_3_CONTENT}}
+    </g>
   </g>
 
   <g id="window4-stats" transform="translate(680, 160)">
@@ -90,7 +93,8 @@
     <text x="150" y="20" class="title-text" text-anchor="middle">metrics_daemon</text>
     
     <g id="inject-stats" transform="translate(20, 60)">
-      </g>
+      {{WINDOW_4_CONTENT}}
+    </g>
   </g>
 
   <g id="window5-protocols" transform="translate(680, 405)">
@@ -100,7 +104,8 @@
     <text x="150" y="20" class="title-text" text-anchor="middle">netstat -tuln</text>
     
     <g id="inject-protocols" transform="translate(20, 60)">
-      </g>
+      {{WINDOW_5_CONTENT}}
+    </g>
   </g>
 
 </svg>
