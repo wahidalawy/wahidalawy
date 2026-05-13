@@ -60,7 +60,31 @@
     <text x="480" y="20" class="title-text" text-anchor="middle">root@mahdavi:~</text>
     
     <g id="inject-identity" transform="translate(25, 65)">
-      <text x="0" y="20" class="body-text" fill="#27c93f">> Identity module online...</text>
+      
+    <text x="10" y="0" class="body-text" font-weight="bold" fill="#81A1C1">root@mahdavi:~$<tspan dx="10" fill="#ECEFF4">./whoami --full-profile</tspan></text>
+    
+    <g transform="translate(10, 25)">
+        <text y="0" class="body-text">
+            <tspan fill="#4C566A">NAME_ </tspan>
+            <tspan fill="#ECEFF4" font-weight="bold">Mohammad Reza Mahdavi Ravesh</tspan>
+        </text>
+        <text y="22" class="body-text">
+            <tspan fill="#4C566A">ROLE_ </tspan>
+            <tspan fill="#B48EAD">Network &amp; Software Engineer</tspan>
+        </text>
+    </g>
+
+    <g transform="translate(400, 25)">
+        <text y="0" class="body-text">
+            <tspan fill="#4C566A">LOC_  </tspan>
+            <tspan fill="#ECEFF4">Qom, Iran</tspan>
+        </text>
+        <text y="22" class="body-text">
+            <tspan fill="#4C566A">STAT_ </tspan>
+            <tspan fill="#A3BE8C">[ OK ] Root Access Granted</tspan>
+        </text>
+    </g>
+    
     </g>
   </g>
 
@@ -71,7 +95,23 @@
     <text x="150" y="20" class="title-text" text-anchor="middle">sys_infra.sh</text>
     
     <g id="inject-infra" transform="translate(20, 60)">
-      <text x="0" y="20" class="body-text">> Infra sync...</text>
+      
+    <text x="10" y="0" class="body-text" fill="#81A1C1" font-weight="bold">[+] HYPERVISORS &amp; OPS</text>
+    
+    <text x="10" y="25" class="body-text" fill="#4C566A">├── <tspan fill="#D8DEE9">VMware ESXi</tspan></text>
+    <text x="10" y="50" class="body-text" fill="#4C566A">├── <tspan fill="#D8DEE9">ProLiant DL380/DL360 Gen9</tspan></text>
+    <text x="10" y="75" class="body-text" fill="#4C566A">├── <tspan fill="#D8DEE9">Docker Containers</tspan></text>
+    <text x="10" y="100" class="body-text" fill="#4C566A">└── <tspan fill="#D8DEE9">Ubuntu 24.04 LTS</tspan></text>
+
+    <text x="10" y="145" class="body-text" fill="#81A1C1" font-weight="bold">[+] LANGUAGES &amp; STACK</text>
+    
+    <text x="10" y="170" class="body-text" fill="#4C566A">├── <tspan fill="#EBCB8B">[Low-Level]</tspan> <tspan fill="#D8DEE9">C / C++ / Rust</tspan></text>
+    <text x="10" y="195" class="body-text" fill="#4C566A">├── <tspan fill="#A3BE8C">[Backend]  </tspan> <tspan fill="#D8DEE9">Python / PHP</tspan></text>
+    <text x="10" y="220" class="body-text" fill="#4C566A">└── <tspan fill="#B48EAD">[Frontend] </tspan> <tspan fill="#D8DEE9">React / Next.js</tspan></text>
+    
+    <rect x="10" y="360" width="240" height="30" rx="4" fill="rgba(163, 190, 140, 0.1)" stroke="#A3BE8C" stroke-width="1"/>
+    <text x="25" y="380" class="body-text" fill="#A3BE8C" font-size="12px">● All Infrastructure Operational</text>
+    
     </g>
   </g>
 
