@@ -1,31 +1,40 @@
-name: Update GitHub Monitoring Animation
+name: System Core Telemetry Update
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # هر ۶ ساعت
-  workflow_dispatch: # امکان اجرای دستی
+    - cron: '0 */6 * * *' # Executes every 6 hours to shift the wave and update stats
+  workflow_dispatch: # Allows manual triggering from the Actions tab
 
 jobs:
-  update-svg:
+  update-dashboard:
     runs-on: ubuntu-latest
+    
+    # CRITICAL: Explicitly grant the Action permission to push the generated SVG to your repo
+    permissions:
+      contents: write 
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: pip install requests
 
-      - name: Update SVG
-        run: python update_stats.py
+      - name: Execute Dashboard Core Orchestrator
+        env:
+          # Injects the built-in GitHub token securely into the Python environment
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+        run: python main.py
 
-      - name: Commit and Push
+      - name: Commit and Push System Status
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config --global user.name "metrics-daemon"
+          git config --global user.email "daemon@sys-core.local"
           git add status.svg
-          git commit -m "Update monitoring stats" || exit 0
+          git commit -m "[SYS] Update telemetry dashboard & wave shift" || exit 0
           git push
