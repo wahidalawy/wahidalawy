@@ -186,7 +186,7 @@
     
     <text y="25" class="body-text">
         <tspan x="5" fill="#81A1C1">TOTAL_COMMITS_ </tspan>
-        <tspan fill="#A3BE8C" font-weight="bold">22</tspan>
+        <tspan fill="#A3BE8C" font-weight="bold">21</tspan>
     </text>
 
     <text y="45" class="body-text">
