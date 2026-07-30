@@ -186,7 +186,7 @@
     
     <text y="25" class="body-text">
         <tspan x="5" fill="#81A1C1">TOTAL_COMMITS_ </tspan>
-        <tspan fill="#A3BE8C" font-weight="bold">21</tspan>
+        <tspan fill="#A3BE8C" font-weight="bold">20</tspan>
     </text>
 
     <text y="45" class="body-text">
@@ -201,7 +201,7 @@
     <text x="5" y="140" class="body-text" font-size="10px" fill="#4C566A">[ Live Traffic Pulse ]</text>
 
     <g transform="translate(5, 75)">
-        <path d="M 0,10.8 L 5,5.9 L 10,5.0 L 15,9.6 L 20,7.9 L 25,6.1 L 30,12.5 L 35,14.1 L 40,12.1 L 45,18.3 L 50,22.7 L 55,20.4 L 60,24.8 L 65,30.7 L 70,28.2 L 75,29.5 L 80,35.0 L 85,32.8 L 90,30.7 L 95,35.0 L 100,33.0 L 105,27.6 L 110,30.1 L 115,28.8 L 120,21.5 L 125,21.6 L 130,21.8 L 135,14.4 L 140,12.5 L 145,14.6 L 150,8.9 L 155,5.9 L 160,9.8 L 165,7.2 L 170,5.0 L 175,9.0 L 180,10.0 L 185,6.9 L 190,12.2 L 195,16.6 L 200,14.1 L 205,18.3 L 210,24.8 L 215,23.0 L 220,24.8 L 225,31.7 L 230,30.7 L 235,29.3 L 240,35.0 L 245,34.6 L 250,30.2" fill="none" stroke="#B48EAD" stroke-width="2" style="filter: drop-shadow(0px 0px 4px rgba(180, 142, 173, 0.5));"/>
+        <path d="M 0,10.0 L 5,5.3 L 10,5.2 L 15,10.6 L 20,7.9 L 25,8.6 L 30,15.6 L 35,14.3 L 40,15.3 L 45,23.0 L 50,22.5 L 55,22.9 L 60,30.4 L 65,29.8 L 70,28.7 L 75,35.0 L 80,33.6 L 85,30.5 L 90,35.0 L 95,32.8 L 100,27.7 L 105,30.8 L 110,27.8 L 115,21.3 L 120,23.3 L 125,20.4 L 130,13.4 L 135,15.2 L 140,13.4 L 145,6.8 L 150,9.2 L 155,9.3 L 160,5.0 L 165,7.4 L 170,9.6 L 175,5.6 L 180,10.1 L 185,14.3 L 190,11.4 L 195,16.4 L 200,21.8 L 205,19.4 L 210,23.9 L 215,29.6 L 220,26.8 L 225,29.9 L 230,35.0 L 235,31.1 L 240,32.1 L 245,35.0 L 250,30.9" fill="none" stroke="#B48EAD" stroke-width="2" style="filter: drop-shadow(0px 0px 4px rgba(180, 142, 173, 0.5));"/>
     </g>
     
     </g>
